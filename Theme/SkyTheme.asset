@@ -1,0 +1,205 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8190f727dfae1314fae7c56a3c61008d, type: 3}
+  m_Name: SkyTheme
+  m_EditorClassIdentifier: Assembly-CSharp::RTXOn.TrackTheme
+  floor: {fileID: 2100000, guid: be9702f327a842c42a22275c7d0b161a, type: 2}
+  floorSide: {fileID: 2100000, guid: 592f7e37a4aa7e04fb8305b45bf31e0b, type: 2}
+  fragile: {fileID: 2100000, guid: 49cdbc3008323e84db9a27fa2b5d1cec, type: 2}
+  fragile1: {fileID: 2100000, guid: 49cdbc3008323e84db9a27fa2b5d1cec, type: 2}
+  fragile2: {fileID: 2100000, guid: 49cdbc3008323e84db9a27fa2b5d1cec, type: 2}
+  fragileChecker: {fileID: 2100000, guid: f5be1e44b912750478c485476a6b8fa7, type: 2}
+  fragileRow: {fileID: 2100000, guid: 49cdbc3008323e84db9a27fa2b5d1cec, type: 2}
+  fragileColumn: {fileID: 2100000, guid: 49cdbc3008323e84db9a27fa2b5d1cec, type: 2}
+  fragileSide: {fileID: 2100000, guid: 39e5d587f6331e0439c4f94ad5be132b, type: 2}
+  fragileBorders: 1
+  jump: {fileID: 2100000, guid: 2b7285fcb33a85740b1586819b29223b, type: 2}
+  hazard: {fileID: 2100000, guid: 59fa1a2786b254546bad9026e4e69610, type: 2}
+  hazardSafe: {fileID: 2100000, guid: d47ed42e74d33564cb7bdfd398d7e326, type: 2}
+  gem: {fileID: 2100000, guid: f5527a857f59e8f42a8e7966f263a09c, type: 2}
+  star: {fileID: 2100000, guid: 91a4ebd825494f54badb766efad24206, type: 2}
+  pickupMaterial: {fileID: 2100000, guid: 34d11508d7056044d99ed4730ac63114, type: 2}
+  trunk: {fileID: 2100000, guid: 592f7e37a4aa7e04fb8305b45bf31e0b, type: 2}
+  foliage: {fileID: 2100000, guid: ee7748db817356a44ab526e68f4f4239, type: 2}
+  beamRed: {fileID: 2100000, guid: cf0410fae8cf1cb43ac0bd4e4b33f7c3, type: 2}
+  beamWhite: {fileID: 2100000, guid: d8d423e0c6e186843bf3fb81174b9120, type: 2}
+  ball: {fileID: 2100000, guid: 845851e697e1b4d4aa163ad02106b991, type: 2}
+  ballColor: {r: 1, g: 0, b: 0, a: 0}
+  mover: {fileID: 2100000, guid: 105cf72be1a7920499a79371dc7c6b76, type: 2}
+  moverAuto: {fileID: 2100000, guid: f62566bb558b6014ea91cff6dd91f77e, type: 2}
+  moverArrow: {fileID: 2100000, guid: c06c0bdd9b4055b4e8afddff65f9da75, type: 2}
+  background: {fileID: 2800000, guid: 5873897446640074c913a9edbd7e0b77, type: 3}
+  backgroundTint: {r: 1, g: 1, b: 1, a: 1}
+  backgroundY: 0
+  backgroundGradient: 0
+  moverEdge: 2
+  midgroundModels:
+  - {fileID: 0}
+  midgroundMaterial: {fileID: 0}
+  midgroundTint: {r: 1, g: 1, b: 1, a: 1}
+  midFogColor: {r: 0.07, g: 0.85, b: 0.88, a: 1}
+  midFogStart: 17
+  midFogEnd: 30
+  midgroundHeight: 5
+  midgroundRise: 15
+  midgroundMinX: 0
+  midgroundMaxX: 12
+  midgroundBlank: 4
+  modelLook: 1
+  textureLook: 1
+  shadows: 1
+  tileSet: 2
+  tileX: {fileID: 1329265881617935, guid: cff8f2212bff15546995fe6c0e6440b0, type: 3}
+  tileX1: {fileID: 1880696562109165, guid: e8b855e8a963fd943a4e8a90e242b7ea, type: 3}
+  tileX2a: {fileID: 1110707234855811, guid: ab96c3f3b107e9246bf054ac639078a6, type: 3}
+  tileX2b: {fileID: 1131220902616901, guid: 4947f35a2e9d3504585bbc654cae588f, type: 3}
+  tileX3: {fileID: 1940323724509527, guid: 60de97a80bb677e4e86950b204c5e03f, type: 3}
+  tileX4: {fileID: 1678933196795728, guid: 906b56f92e47c544192286375360c660, type: 3}
+  tileT: {fileID: 1240374072078123, guid: 08f10a9bbb8aa3b4caf6ef85afa5973b, type: 3}
+  tileT1a: {fileID: 1822008050196212, guid: 162c11e290c95f44eba05d30dfb627d7, type: 3}
+  tileT1b: {fileID: 1747505913675708, guid: 6c4a24ebc65e71943a86f5aa82235693, type: 3}
+  tileT2: {fileID: 1697363808970761, guid: 9c23d7ff8fd7e67439fcb0e5e41184b8, type: 3}
+  tileL: {fileID: 1993001204287731, guid: 0d0583f5c5ff6d244b3fc63d2b15eeda, type: 3}
+  tileL1: {fileID: 1803845776552445, guid: 153a5d310b1f71c4b8e50a022c22449f, type: 3}
+  tileI: {fileID: 1858200682437826, guid: 16397f48751c92043b1f7381c9de7c3b, type: 3}
+  tileD: {fileID: 1956049131666254, guid: 66f98b3b6364a1b41bfb5d9f75a33624, type: 3}
+  tileO: {fileID: 1161219024350860, guid: 960e4c5818d692f478c080a32ac82606, type: 3}
+  tileOD: {fileID: 1550697847744872, guid: 911661b7120501a4da8eab0cef89e667, type: 3}
+  tileJump: {fileID: 1298088968087526, guid: 1b3ab7863700fca4d8d25e0d43a6d308, type: 3}
+  tileMoverArrow: {fileID: 1233837091727636, guid: c9885a51b579f1b4b9e2cac1b049d5a3, type: 3}
+  tileMoverAutoArrow: {fileID: 1883973197359756, guid: 17188fcf56f2dae46a4315930bf113f1, type: 3}
+  tileGeneral: {fileID: 2100000, guid: 33054a672db61c64d964ebe181972a90, type: 2}
+  tileFragile: {fileID: 2100000, guid: 92da61bd54269574d9e067fd9e45335b, type: 2}
+  tileFragileActive: {fileID: 2100000, guid: 125a9d2f4933a61468ccf7008291976c, type: 2}
+  tileMover: {fileID: 2100000, guid: 232eea995aacfa94db08b5751804bc80, type: 2}
+  tileMoverAuto: {fileID: 2100000, guid: d7899d44dd6799f4e979a17e1b34ea7c, type: 2}
+  floorModel: {fileID: 0}
+  fragileModel: {fileID: 0}
+  fragileCheckerModel: {fileID: 0}
+  jumpModel: {fileID: 0}
+  moverModel: {fileID: 0}
+  moverAutoModel: {fileID: 0}
+  pillarModelRTX: {fileID: 0}
+  laserModelRTX: {fileID: 0}
+  blockModelRTX: {fileID: 0}
+  gemModel: {fileID: 1837443177462594, guid: a1f3f5bc818524847b586e450dbe5e8d, type: 3}
+  starModel: {fileID: 1106360288996397, guid: 5d56297e9103ac64e9f0525ef785f293, type: 3}
+  riserModel: {fileID: 1449117486828575, guid: 21d32e6aecbd32049bcfd73d1dd40bfa, type: 3}
+  crusherModel: {fileID: 1065684779379086, guid: 023c4a570c5c3614692c7caaf3ba791a, type: 3}
+  floaterModel: {fileID: 1128975796809345, guid: bf3250b9276eb68409ecf456b771a616, type: 3}
+  binaryMiniModel: {fileID: 1178022924011930, guid: 5c939c6f1d1d3c043a210dddf97b0fcb, type: 3}
+  binarySlasherModel: {fileID: 1111132925401871, guid: 5cdca15949092564aa42749d6866dae8, type: 3}
+  binaryHammerModel: {fileID: 1202895435296893, guid: ffd2470f35ea1e44995abb28d81fd43f, type: 3}
+  pillarModel: {fileID: 1980531397753598, guid: 913aad180fcc8014f9c6df9b37dd0458, type: 3}
+  laserModel: {fileID: 1798238764779349, guid: bbfad72687f4865448534341fe7497c1, type: 3}
+  pillarLaserModel: {fileID: 1980531397753598, guid: 913aad180fcc8014f9c6df9b37dd0458, type: 3}
+  spotlightModel: {fileID: 1643313190531292, guid: db66aabfa4972cb45809ac025e5da7f4, type: 3}
+  rollerModel: {fileID: 1037098934702384, guid: 37a5702b88827ae489268d255f5befca, type: 3}
+  treeModel: {fileID: 1433602389012151, guid: 989cdb4a0ce79b249893e986dc98ba7a, type: 3}
+  palmModel: {fileID: 1265246493423629, guid: 9d8dc73a126f26c4fa618d612ae8b219, type: 3}
+  riserVariants:
+  - {fileID: 1110246169761048, guid: d5cdf1d892cc52a46887121ef7f29308, type: 3}
+  - {fileID: 1342005679689496, guid: 1d80a229762add7499f5c88fd2ddeb29, type: 3}
+  - {fileID: 1945852438226595, guid: 20ab5fe3cc44fbc47b43d6d281f181eb, type: 3}
+  treeVariants:
+  - {fileID: 1550160626575499, guid: fe8392a676fa6294abee5f140513806a, type: 3}
+  - {fileID: 1433602389012151, guid: 989cdb4a0ce79b249893e986dc98ba7a, type: 3}
+  crownModel: {fileID: 0}
+  finishModel: {fileID: 1957098747252119, guid: 89f3c9eca22451149a26d3ba665642ae, type: 3}
+  portalModel: {fileID: 1032619540643631, guid: 5f59772a43748ab43a1d4e1e7672a5d5, type: 3}
+  blockModel: {fileID: 0}
+  triggerObjectModel: {fileID: 0}
+  triggerObjectClip: {fileID: 0}
+  powerUpModels: []
+  fitModels: 1
+  modelsFaceBall: 1
+  modelMaterial: {fileID: 2100000, guid: 975cd9a3e58c06949af2be5115e57991, type: 2}
+  autoModelMaterial: 1
+  models: []
+  modelAdjusts: []
+  modelAnimations: []
+  props: []
+  environments:
+  - name: Day
+    sunEuler: {x: 42, y: -35, z: 0}
+    sunColor: {r: 1, g: 0.95, b: 0.86, a: 1}
+    sunIntensity: 1.6
+    skyTop: {r: 0.2, g: 0.45, b: 0.88, a: 1}
+    skyHorizon: {r: 0.82, g: 0.92, b: 1, a: 1}
+    skyBottom: {r: 0.74, g: 0.86, b: 0.98, a: 1}
+    sunDisc: {r: 6, g: 5.6, b: 4.8, a: 1}
+    sunDiscSize: 0.03
+    stars: 0
+    skyHdri: {fileID: 0}
+    hdriExposure: 1
+    hdriRotation: 0
+    hdriTint: {r: 1, g: 1, b: 1, a: 1}
+    hdriLighting: 1
+    fogColor: {r: 0.74, g: 0.86, b: 0.98, a: 1}
+    fogDensity: 0.018
+    ambientSky: {r: 0.62, g: 0.76, b: 0.95, a: 1}
+    ambientEquator: {r: 0.55, g: 0.64, b: 0.75, a: 1}
+    ambientGround: {r: 0.3, g: 0.34, b: 0.42, a: 1}
+    neonBoost: 1
+    edgeGlow: -1
+    postExposure: 0.2
+    bloomIntensity: 0.9
+  - name: Sunset
+    sunEuler: {x: 9, y: 200, z: 0}
+    sunColor: {r: 1, g: 0.62, b: 0.36, a: 1}
+    sunIntensity: 1.35
+    skyTop: {r: 0.27, g: 0.25, b: 0.55, a: 1}
+    skyHorizon: {r: 1, g: 0.62, b: 0.45, a: 1}
+    skyBottom: {r: 0.93, g: 0.62, b: 0.58, a: 1}
+    sunDisc: {r: 7, g: 3.6, b: 1.6, a: 1}
+    sunDiscSize: 0.045
+    stars: 0
+    skyHdri: {fileID: 0}
+    hdriExposure: 1
+    hdriRotation: 0
+    hdriTint: {r: 1, g: 1, b: 1, a: 1}
+    hdriLighting: 1
+    fogColor: {r: 0.93, g: 0.62, b: 0.58, a: 1}
+    fogDensity: 0.02
+    ambientSky: {r: 0.55, g: 0.45, b: 0.62, a: 1}
+    ambientEquator: {r: 0.75, g: 0.5, b: 0.45, a: 1}
+    ambientGround: {r: 0.28, g: 0.22, b: 0.3, a: 1}
+    neonBoost: 1.5
+    edgeGlow: -1
+    postExposure: 0.15
+    bloomIntensity: 1.1
+  - name: Night
+    sunEuler: {x: 38, y: 25, z: 0}
+    sunColor: {r: 0.55, g: 0.66, b: 1, a: 1}
+    sunIntensity: 0.45
+    skyTop: {r: 0.01, g: 0.02, b: 0.07, a: 1}
+    skyHorizon: {r: 0.07, g: 0.12, b: 0.26, a: 1}
+    skyBottom: {r: 0.05, g: 0.08, b: 0.18, a: 1}
+    sunDisc: {r: 2.2, g: 2.4, b: 3, a: 1}
+    sunDiscSize: 0.025
+    stars: 1
+    skyHdri: {fileID: 0}
+    hdriExposure: 1
+    hdriRotation: 0
+    hdriTint: {r: 1, g: 1, b: 1, a: 1}
+    hdriLighting: 1
+    fogColor: {r: 0.05, g: 0.08, b: 0.18, a: 1}
+    fogDensity: 0.024
+    ambientSky: {r: 0.12, g: 0.16, b: 0.3, a: 1}
+    ambientEquator: {r: 0.08, g: 0.1, b: 0.18, a: 1}
+    ambientGround: {r: 0.03, g: 0.03, b: 0.06, a: 1}
+    neonBoost: 2.6
+    edgeGlow: -1
+    postExposure: 0.1
+    bloomIntensity: 1.5
+  spotlightColor: {r: 6, g: 5.7, b: 4.8, a: 6}
+  laserLightColor: {r: 4, g: 0.6, b: 0.4, a: 4}
